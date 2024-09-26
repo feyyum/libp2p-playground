@@ -1,0 +1,20 @@
+{
+  "name": "p2p",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "DEBUG=\"libp2p:*\" node index.js",
+    "start": "node index.js"
+  },
+  "author": "Feyyaz",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@chainsafe/libp2p-noise": "^16.0.0",
+    "@chainsafe/libp2p-yamux": "^7.0.1",
+    "@libp2p/bootstrap": "^11.0.5",
+    "@libp2p/websockets": "^9.0.5",
+    "libp2p": "^2.1.3"
+  }
+}
